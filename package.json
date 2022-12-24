@@ -4,12 +4,12 @@
   },
   "scripts": {
     "prepare": " husky install",
-    "test": "npm run test module1"
+    "test": "npm run test"
   },
   "husky": {
     "hooks": {
       "pre-commit": "test",
-      "pre-push": ""
+      "pre-push": "yarn test"
     }
   }
 }
