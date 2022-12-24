@@ -4,7 +4,7 @@
   },
   "scripts": {
     "prepare": " husky install",
-    "test": "npm-run-all module1"
+    "test": "npm-run-all module"
   },
   "husky": {
     "hooks": {
