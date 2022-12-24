@@ -8,13 +8,6 @@
     "test": "vue-cli-service test:unit",
     "lint": "vue-cli-service lint",
     "postinstall": "husky install",
-    "prepare": "husky install"
-  },
-  "husky": {
-    "hooks": {
-      "pre-commit": "yarn test",
-      "pre-push": "yarn test"
-    }
   },
   "dependencies": {
     "core-js": "^3.8.3",

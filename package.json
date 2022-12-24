@@ -3,6 +3,13 @@
     "husky": "^8.0.2"
   },
   "scripts": {
-    "prepare": " husky install module1/"
+    "prepare": " husky install",
+    "test": "npm-run-all module1"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "test",
+      "pre-push": ""
+    }
   }
 }
